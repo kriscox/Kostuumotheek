@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Kostuumotheek.Data;
 
 namespace Kostuumotheek
 {
@@ -22,6 +20,8 @@ namespace Kostuumotheek
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.AddDbContext<KostuumotheekContext>( options => options.UseMySQL("server=192.168.252.2;port=3307;database=Kostuumotheek;user=www;password=w8chtw00rd"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
