@@ -1,10 +1,7 @@
 ﻿<Properties StartupConfiguration="{09664FE2-0ED2-4441-BC19-675C59DDEACC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Kostuumotheek/Controllers/CostumeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kostuumotheek Status">
     <Files>
-      <File FileName="Kostuumotheek/Models/Costume.cs" Line="2" Column="1" />
-      <File FileName="Kostuumotheek/Startup.cs" Line="6" Column="21" />
-      <File FileName="Kostuumotheek/Data/KostuumotheekContext.cs" Line="6" Column="2" />
-      <File FileName="Kostuumotheek/Controllers/CostumeController.cs" Line="74" Column="37" />
+      <File FileName="Kostuumotheek Status" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +12,27 @@
                 <Node name="CostumeController.cs" selected="True" />
               </Node>
               <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Costume" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                      <Node name="fonts" expanded="True" />
+                      <Node name="js" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

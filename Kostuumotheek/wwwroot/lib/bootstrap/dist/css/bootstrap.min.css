@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -4971,7 +4971,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
     .navbar-inverse .navbar-brand {
-        color: #9d9d9d
+        color: #9D2B24
     }
 
         .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
@@ -4980,11 +4980,11 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
         }
 
     .navbar-inverse .navbar-text {
-        color: #9d9d9d
+        color: #9D2B24
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #9d9d9d
+        color: #9D2B24
     }
 
         .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
@@ -5033,7 +5033,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #9d9d9d
+        color: #9D2B24
     }
 
         .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
@@ -5053,7 +5053,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-inverse .navbar-link {
-    color: #9d9d9d
+    color: #9D2B24
 }
 
     .navbar-inverse .navbar-link:hover {
@@ -5061,7 +5061,7 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     }
 
 .navbar-inverse .btn-link {
-    color: #9d9d9d
+    color: #9D2B24
 }
 
     .navbar-inverse .btn-link:focus, .navbar-inverse .btn-link:hover {
