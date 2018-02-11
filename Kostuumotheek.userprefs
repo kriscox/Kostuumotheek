@@ -1,6 +1,15 @@
 ﻿<Properties StartupConfiguration="{09664FE2-0ED2-4441-BC19-675C59DDEACC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Kostuumotheek Status">
     <Files>
+      <File FileName="Kostuumotheek/Controllers/HomeController.cs" Line="30" Column="1" />
+      <File FileName="Kostuumotheek/Views/Shared/_Login.cshtml" Line="25" Column="76" />
+      <File FileName="Kostuumotheek/Controllers/AccountController.cs" Line="74" Column="54" />
+      <File FileName="Kostuumotheek/Controllers/CostumeController.cs" Line="1" Column="1" />
+      <File FileName="Kostuumotheek/Startup.cs" Line="100" Column="13" />
+      <File FileName="Kostuumotheek/Models/RegisterViewModel.cs" Line="1" Column="1" />
+      <File FileName="Kostuumotheek/Models/LoginViewModel.cs" Line="9" Column="15" />
+      <File FileName="Kostuumotheek/Views/Account/Login.cshtml" Line="6" Column="37" />
+      <File FileName="Kostuumotheek/Views/Account/Register.cshtml" Line="35" Column="57" />
       <File FileName="Kostuumotheek Status" />
     </Files>
     <Pads>
@@ -8,14 +17,15 @@
         <State name="__root__">
           <Node name="Kostuumotheek" expanded="True">
             <Node name="Kostuumotheek" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="CostumeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
                 <Node name="Costume" expanded="True" />
                 <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
@@ -50,7 +60,9 @@
   <MonoDevelop.Ide.ItemProperties.Kostuumotheek PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/krisc/Projects/Kostuumotheek/Kostuumotheek/Views/Home/Login.cshtml.cs" relfile="Kostuumotheek/Views/Home/Login.cshtml.cs" line="12" column="27" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

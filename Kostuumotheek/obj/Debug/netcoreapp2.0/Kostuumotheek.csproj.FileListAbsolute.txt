@@ -8,3 +8,4 @@
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.AssemblyInfo.cs
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.dll
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.pdb
+/Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.csprojResolveAssemblyReference.cache

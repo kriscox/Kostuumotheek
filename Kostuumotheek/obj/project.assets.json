@@ -30475,6 +30475,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
+      "Microsoft.AspNetCore.Authentication.Cookies >= 2.0.1",
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.2",
       "MySql.Data.EntityFrameworkCore >= 6.10.6",
@@ -30541,6 +30543,14 @@
           "MySql.Data.EntityFrameworkCore": {
             "target": "Package",
             "version": "6.10.6"
+          },
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "2.0.1"
+          },
+          "Microsoft.AspNetCore.Authentication.Cookies": {
+            "target": "Package",
+            "version": "2.0.1"
           }
         },
         "imports": [

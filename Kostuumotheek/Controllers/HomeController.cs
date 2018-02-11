@@ -15,16 +15,16 @@ namespace Kostuumotheek.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Contact()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Kostuumotheek";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Login()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Login";
 
             return View();
         }

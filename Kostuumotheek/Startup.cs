@@ -4,17 +4,25 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Kostuumotheek.Data;
+using Kostuumotheek.Models;
 using Microsoft.AspNetCore.Localization;
 using System.Globalization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.AspNetCore.Identity;
 
 namespace Kostuumotheek
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IHostingEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(env.ContentRootPath)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+                .AddEnvironmentVariables();
+            
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -22,14 +30,20 @@ namespace Kostuumotheek
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<KostuumotheekContext>(options =>
+                                                        options.UseMySQL("Server = 192.168.252.2; port = 3307; database = Kostuumotheek; user = www; password = w8chtw00rd"));
+
+            // Add Identity services to the services container.
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+              .AddEntityFrameworkStores<KostuumotheekContext>()
+                .AddDefaultTokenProviders();
+
             services.AddMvc()
                 // Add support for finding localized views, based on file name suffix, e.g. Index.fr.cshtml
                 .AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix)
                     // Add support for localizing strings in data annotations (e.g. validation messages) via the
                     // IStringLocalizer abstractions.
                     .AddDataAnnotationsLocalization();
-
-            services.AddDbContext<KostuumotheekContext>( options => options.UseMySQL("server=192.168.252.2;port=3307;database=Kostuumotheek;user=www;password=w8chtw00rd"));
 
             // Configure supported cultures and localization options
             services.Configure<RequestLocalizationOptions>(options =>
@@ -81,6 +95,8 @@ namespace Kostuumotheek
             }
 
             app.UseStaticFiles();
+
+            app.UseAuthentication();
 
             app.UseMvc(routes =>
             {
