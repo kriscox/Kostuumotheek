@@ -26,11 +26,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            <a href="~/"><img src="~/images/logo.gif" asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"/></a>
+            <a href="~/"><img src="~/images/logo_small.gif" asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand"/></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="disabled" ><a asp-area="" asp-controller="Catalogus" asp-action="Catalogus">Catalogus</a></li>
+                    @Html.Partial("_Catalogue")
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

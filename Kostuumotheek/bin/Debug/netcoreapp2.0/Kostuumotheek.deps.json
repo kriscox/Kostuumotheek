@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "6b1abccfec5dba488d9d3e21de7be83eab046240"
+    "signature": "ce56e67b627c28035530aa4fd69dd9454e8f856e"
   },
   "compilationOptions": {
     "defines": [
@@ -28,8 +28,7 @@
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2",
-          "MySql.Data.EntityFrameworkCore": "6.10.6",
-          "MySql.Data.EntityFrameworkCore.Design": "6.10.6"
+          "MySql.Data.EntityFrameworkCore": "6.10.6"
         },
         "runtime": {
           "Kostuumotheek.dll": {}
@@ -2470,20 +2469,6 @@
         },
         "compile": {
           "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll": {}
-        }
-      },
-      "MySql.Data.EntityFrameworkCore.Design/6.10.6": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "2.0.1",
-          "MySql.Data": "6.10.6",
-          "MySql.Data.EntityFrameworkCore": "6.10.6",
-          "NETStandard.Library": "2.0.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/MySql.Data.EntityFrameworkCore.Design.dll": {}
-        },
-        "compile": {
-          "lib/netstandard1.3/MySql.Data.EntityFrameworkCore.Design.dll": {}
         }
       },
       "Newtonsoft.Json/10.0.1": {
@@ -5533,13 +5518,6 @@
       "sha512": "sha512-NEwlx1eO+atnDMi3cOPMiZAJ9PSChyfAlTtso0TxSaPfVHgJIKHCaPbERMe03/Y5ck3epUIhjfpTGbdsR8xwjw==",
       "path": "mysql.data.entityframeworkcore/6.10.6",
       "hashPath": "mysql.data.entityframeworkcore.6.10.6.nupkg.sha512"
-    },
-    "MySql.Data.EntityFrameworkCore.Design/6.10.6": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-cP7Kg1Qf4+euB2lyxrx9TFXunK0zE4xoNlL2LsUPck14g4DOZzdMXJkHj4lTW0MkhkAFxQwDFivEBlFpj8E5jw==",
-      "path": "mysql.data.entityframeworkcore.design/6.10.6",
-      "hashPath": "mysql.data.entityframeworkcore.design.6.10.6.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.1": {
       "type": "package",

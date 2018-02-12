@@ -3,9 +3,9 @@
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/bin/Debug/netcoreapp2.0/Kostuumotheek.runtimeconfig.dev.json
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/bin/Debug/netcoreapp2.0/Kostuumotheek.dll
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/bin/Debug/netcoreapp2.0/Kostuumotheek.pdb
+/Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.csprojResolveAssemblyReference.cache
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.csproj.CoreCompileInputs.cache
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.AssemblyInfoInputs.cache
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.AssemblyInfo.cs
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.dll
 /Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.pdb
-/Users/krisc/Projects/Kostuumotheek/Kostuumotheek/obj/Debug/netcoreapp2.0/Kostuumotheek.csprojResolveAssemblyReference.cache

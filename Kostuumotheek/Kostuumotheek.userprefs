@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{ABDD7CAB-8AAF-4E90-A619-3135A8FE7E2E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Kostuumotheek Status">
+    <Files>
+      <File FileName="Views/Manage/ManageNavPages.cs" Line="10" Column="2" />
+      <File FileName="Views/Manage/_ManageNav.cshtml" Line="1" Column="14" />
+      <File FileName="Views/Manage/EnableAuthenticator.cshtml" Line="24" Column="1" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Login.cshtml" Line="26" Column="9" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="29" Column="55" />
+      <File FileName="Kostuumotheek Status" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Kostuumotheek" expanded="True">
+            <Node name="Kostuumotheek" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Manage" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Manage" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True" />
+                <Node name="lib" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="Kostuumotheek" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Kostuumotheek PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
